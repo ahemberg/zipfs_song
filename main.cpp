@@ -13,7 +13,7 @@ struct songlist {
 };
 
 bool top_zipf(const songlist& x, const songlist& y) {
-    return (x.zi > y.zi) || ((x.zi == y.zi)&& (x.rec_pos < y.rec_pos));
+    return (x.zi > y.zi) || ((x.zi == y.zi) && (x.rec_pos < y.rec_pos));
 }
 
 int main() {
